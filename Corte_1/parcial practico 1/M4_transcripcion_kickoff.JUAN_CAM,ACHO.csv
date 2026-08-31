@@ -1,0 +1,25 @@
+turno;actor;cargo_declarado;intervencion
+1;Marcela;Gerente General;Necesito ver en una sola pantalla cuántos viajes hacemos por día y cuánto facturamos. Ayer el inversionista me preguntó y no supe qué decir. Y por favor que cargue rápido, no como el sistema anterior que se demoraba tres minutos.
+2;Julián;Coordinador de Operaciones;Lo mío es distinto. Yo necesito saber qué estaciones se quedan sin bicicletas antes de las 8 de la mañana, para mandar el camión a reponer. Si me avisa una hora antes, perfecto.
+3;Julián;Coordinador de Operaciones;Ah, y yo actualizo un Excel todos los días a mano... ojalá no me toque seguir haciéndolo.
+4;Daniela;Líder de Producto / App;Los usuarios se quejan en las reseñas de que la app no muestra bicicletas disponibles en tiempo real.
+5;Daniela;Líder de Producto / App;También quiero poder consultar el historial de viajes de un usuario cuando escriben a soporte, pero solo yo y el equipo de soporte deberíamos ver eso, ahí hay datos personales.
+6;Andrés;Desarrollador backend;Yo les digo desde ya: háganlo en MongoDB, punto. Es lo que yo sé usar.
+7;Marcela;Gerente General;Otra cosa, la semana pasada se cayó el sistema un domingo y perdimos toda la operación del día. Eso no puede volver a pasar.
+8;Julián;Coordinador de Operaciones;Y a mí me sirve poder descargar un archivo con los viajes del mes para pasárselo al contador.
+9;Daniela;Líder de Producto / App;Ojo que el mes entrante entramos en Medellín y en Cali. Vamos a triplicar el volumen de datos.
+10;Marcela;Gerente General;Ah, y hablando de eso... el área jurídica dijo algo sobre protección de datos personales de los usuarios, pero no alcanzaron a venir hoy. Después les cuento.
+11;Julián;Coordinador de Operaciones;Los usuarios de la bici, los ciudadanos, ellos qué... bueno, ellos solo quieren que la bici esté ahí y que la app no se caiga.
+;;;
+;;;
+;;RF1;el sistema debe permitir saber que estaciones estan con bicicletas para �pder �roveer serviciuo
+;;RF2;El siste,a debe m,ostar bicic�etas disponibles en tiempoo real
+;;RF3;El sistema debe guardar los datos de operaci�n para �revenir perdida de datos mas de una ves al dia
+;;RF4;El siste,a debe cumplir con las normativbas de proteciones legales de datos personales
+;;;
+;;RNF;
+;;usabilidad;el siste,a debe �permitir consultar el histporial de viajes de un usuario
+;;esdcalabilidad;El siste,a debe poder manejhart una mayor cabtidad de datos sinb presentar problemas
+;;usabilidad;el sistema se debe desarrollar en mongo bd para la facilidad del desarrollador de backend
+;;;
+;;hisytorias de usuario;contenuido
